@@ -1,0 +1,219 @@
+     /* Define um estilo para o menu */
+     nav {
+         background-color: #333;
+         color: white;
+         padding: 10px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         position: fixed;
+         top: 0;
+         width: 100%;
+         z-index: 1;
+     }
+
+     img {
+         width: 170px;
+         height: 170px;
+         margin-left: 60px;
+
+     }
+
+     /* Define um estilo para o logotipo */
+     nav h1 {
+         margin-right: 50px;
+     }
+
+     /* Define um estilo para os links do menu */
+     nav a {
+         color: white;
+         text-decoration: none;
+         margin-left: 50px;
+         font-size: 30px;
+         /* Define o tamanho da fonte */
+         margin-right: 50px;
+
+     }
+
+     a:hover {
+         font-size: 50px;
+         /* Define um tamanho de fonte maior ao passar o mouse */
+         color: #4545ab;
+         /* Define uma cor diferente para o texto ao passar o mouse */
+     }
+
+     /* Define um estilo para a seção de cabeçalho */
+     header {
+         background-image: url('imagem-de-fundo.jpg');
+         background-size: cover;
+         height: 400px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+
+     /* Define um estilo para o título do cabeçalho */
+     header h1 {
+         margin: 0;
+         padding: 0;
+         font-family: 'montserrat', sans-serif;
+         font-size: 48px;
+         font-weight: bold;
+         text-align: center;
+         color: #ffffff;
+         text-shadow: 2px 2px #fffefe;
+         letter-spacing: 2px;
+         
+     }
+
+     header p {
+
+         font-family: 'Montserrat', sans-serif;
+         font-size: 29px;
+         font-weight: 400;
+         letter-spacing: 1px;
+         color: #f9feff;
+         text-align: center;
+         margin-bottom: 50px;
+     }
+
+
+     body {
+         background-image: url("imagens-profissionais/fundo10-05.jpg");
+         background-size: cover;
+         background-position: center;
+         height: 100%;
+         margin: 0;
+         background-attachment: fixed;
+     }
+
+     div {
+         margin: 70px;
+     }
+
+
+     p {
+         font-size: large;
+     }
+
+
+     /* Define um estilo para a seção de quem sou eu */
+     section#quem-sou-eu h2 {
+         font-size: 5.5rem;
+         font-weight: bold;
+         font-family: "Arial", sans-serif;
+         color: #f9f7f7;
+         text-align: center;
+     }
+
+     section#quem-sou-eu p {
+         font-size: 1.5rem;
+         line-height: 1.5;
+         font-family: "Open Sans", sans-serif;
+         color: #fffdfd;
+         text-align: justify;
+     }
+
+
+     /* Define um estilo para a seção de portfólio */
+     section#portfolio {
+         padding: 50px;
+     }
+
+     /* Define um estilo para a seção de contato */
+     section#contato {
+         padding: 50px;
+         background-color: #f2f2f2;
+     }
+     #contato {
+        background-color: #f8f8f8;
+        padding: 50px;
+      }
+      
+      #contato h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      
+      #contato p {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      #contato a {
+        color: #9fa1a2;
+        text-decoration: none;
+        font-size: 20px;
+        margin-right: 10px;
+      }
+      
+      #contato form {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      
+      #fs-frm-inputs label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      #fs-frm-inputs input,
+      #fs-frm-inputs textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0,0,0,.1);
+        margin-bottom: 20px;
+        font-size: 16px;
+      }
+      
+      #fs-frm-inputs input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      #fs-frm-inputs input[type="submit"]:hover {
+        background-color: #0069d9;
+      }
+      #portfolio {
+        text-align: center;
+      }
+      
+      .site-container {
+        display: inline-block;
+        margin: 20px;
+      }
+      
+      .site {
+        width: 300px;
+        height: 250px;
+        margin: 0 10px;
+        display: inline-block;
+        vertical-align: top;
+      }
+      
+      .site img {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .site h3 {
+        margin-top: 10px;
+        font-size: 20px;
+        text-align: center;
+      }
+      
+
+     
